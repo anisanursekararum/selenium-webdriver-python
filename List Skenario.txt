@@ -1,0 +1,31 @@
+Scenario testing for https://demowebshop.tricentis.com 
+
+Register
+    Positive
+        a. Success register => DONE
+    Negative
+        a. Empty form => DONE
+        b. Empty First name => DONE
+        c. Empty Last name => DONE
+        d. Empty Email => DONE
+        e. Empty Password => DONE
+        f. Empty Confirm Password => DONE
+        g. Incorrect format email => DONE
+        h. Password less than 6 characters => DONE
+        i. The password and confirmation password do not match. => DONE
+        j. Email already registered => DONE
+
+Login
+    Positive
+        1. Success login => DONE
+    Negative
+        1. Empty form
+        2. Empty Email
+        3. Empty Password
+        4. Invalid Email
+        5. Invalid Password
+        6. Email not registered
+
+Shopping Cart - Checkout
+    Positive
+    Negative
